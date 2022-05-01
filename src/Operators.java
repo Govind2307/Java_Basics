@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Operators {
     public static void main(String[] args) {
 
@@ -37,6 +39,30 @@ public class Operators {
      System.out.println(++c); // 2 modified value first
      System.out.println(c); // 2
 
+    //Comparison Operators
+    // a == b;
+    // a != b;
+    // a < b;
+    // a > b;
+    // a <= b;
+    // a >= b;
+
+    // Conditional Statements
+    boolean isSunUp = true;
+    if(isSunUp == false)
+        System.out.println("Night");
+    else
+        System.out.println("Day");
+
+
+
+    Scanner scan = new Scanner(System.in);
+    System.out.println("Enter the age: ");
+    int age = scan.nextInt();
+    if(age >= 18)
+        System.out.println("Is adult");
+    else
+        System.out.println("Minor");
 
 
 
