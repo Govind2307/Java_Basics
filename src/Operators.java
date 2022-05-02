@@ -64,6 +64,26 @@ public class Operators {
     else
         System.out.println("Minor");
 
+    // Logical Operators
+        // && (AND)
+        int year = 2003;
+        int day = 3;
+     if(year>2002 && day > 1)
+         System.out.println("Older");
+     else
+         System.out.println("Elder");
+
+        // || (OR)
+        int classes = 4;
+        String sec = "A";
+        if(classes>2 && sec == "B"){
+            System.out.println("Older");
+            System.out.println("Older");
+        }
+        else {
+            System.out.println("Elder better");
+        }
+
 
 
     }
